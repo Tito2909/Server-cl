@@ -8,8 +8,8 @@ namespace server
 {
     public class Server
     {   //public Server() {
-        
-       // } 
+
+        // } 
         private static TcpListener tcpListener;
         private static readonly IPAddress ipAddress = IPAddress.Parse("192.168.1.102");
         private static readonly int port = 2909;
