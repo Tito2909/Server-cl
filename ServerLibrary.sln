@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerLibrary", "ServerLibrary.csproj", "{75D111C0-AB3C-459F-BF20-2EE244F88B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerLibrary", "ServerLibrary.csproj", "{75D111C0-AB3C-459F-BF20-2EE244F88B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSide", "..\ClientSide\ClientSide.csproj", "{73079D11-9C1D-4E80-9519-9D02D2184B31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientSide", "..\ClientSide\ClientSide.csproj", "{73079D11-9C1D-4E80-9519-9D02D2184B31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI for test", "..\GUI for test\GUI for test.csproj", "{9E53FDA9-5973-46F0-8233-820037924578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI for test", "..\GUI for test\GUI for test.csproj", "{9E53FDA9-5973-46F0-8233-820037924578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdSide", "..\ThirdSide\ThirdSide.csproj", "{3DB912F1-CD04-44D9-BA47-0B98EF9B693D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9E53FDA9-5973-46F0-8233-820037924578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E53FDA9-5973-46F0-8233-820037924578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E53FDA9-5973-46F0-8233-820037924578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB912F1-CD04-44D9-BA47-0B98EF9B693D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB912F1-CD04-44D9-BA47-0B98EF9B693D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB912F1-CD04-44D9-BA47-0B98EF9B693D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB912F1-CD04-44D9-BA47-0B98EF9B693D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
