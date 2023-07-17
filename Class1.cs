@@ -99,7 +99,7 @@ namespace server
             foreach (TcpClient connectedClient in clientBuffers.Keys)
             {
                 NetworkStream connectedClientStream = connectedClient.GetStream();
-                connectedClientStream.Write(thirdSideBuffer, 0, int.Parse(receivedDataFromThird));
+                connectedClientStream.Write(Encoding.ASCII.GetBytes(receivedDataFromThird), 0, int.Parse(receivedDataFromThird));
                 connectedClientStream.Flush();
 
 
@@ -182,7 +182,7 @@ namespace server
                     connectedClientStream.Write(response, 0, response.Length);
                     connectedClientStream.Flush();
                 }
-                // SendData?.Invoke(this, new EventData(data));
+               
 
             }
 
