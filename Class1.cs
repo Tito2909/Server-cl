@@ -16,8 +16,6 @@ namespace server
         private static readonly IPAddress ipAddress = IPAddress.Parse("192.168.113.92");
         private static readonly int port = 2909;
         private static Dictionary<TcpClient, byte[]> clientBuffers = new Dictionary<TcpClient, byte[]>();
-
-        private static byte[] thirdSideBuffer = new byte[4096];
         public event EventHandler<string> SendTheClientData;
 
 
